@@ -11,7 +11,7 @@ export const Content = styled.div`
   justify-content: space-around;
   align-items: center;
 
-  & div {
+  & .box {
     width: 400px;
     min-height: 50%;
 
@@ -21,5 +21,12 @@ export const Content = styled.div`
       font-weight: 700;
       line-height: normal;
     }
+  }
+
+  & form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px 0 15px 0;
   }
 `;
